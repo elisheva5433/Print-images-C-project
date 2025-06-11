@@ -1,0 +1,112 @@
+﻿@* @{
+    ViewData["Title"] = "options";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+
+<h1>Select the desired image size.</h1>
+
+<form method="post" asp-action="ReadImages">
+    <label>
+        
+        <p>hi: @ViewBag.Name </p>
+
+        <h2> choose size:</h2>
+        <select id="options" name="selectedOption">
+            <option value="13 x 18">13 x 18 price: 3</option>
+            <option value="15 x 20">15 x 20 price: 5.5</option>
+            <option value="20 x 30">20 x 30 price: 10</option>
+        </select>
+    </label>
+
+    <button type="submit"> Order completion </button>
+</form> *@
+
+
+
+
+
+
+
+
+<h1>Select the desired image size.</h1>
+
+<form method="post" asp-action="ReadImages">
+    <label>
+        <p>hi: @ViewBag.Name </p>
+
+        <h2> choose size:</h2>
+        <select id="options" name="selectedOption">
+            <option value="13 x 18">13 x 18 price: 3</option>
+            <option value="15 x 20">15 x 20 price: 5.5</option>
+            <option value="20 x 30">20 x 30 price: 10</option>
+        </select>
+    </label>
+
+    <button type="submit"> Order completion </button>
+</form>
+
+<style>
+     body {
+        /* font-family: 'Arial', sans-serif; */
+        background-color: #f0f8ff;  
+       /*  margin: 0;
+        padding: 0; */
+        /* display: flex; */
+        /* justify-content: center; */
+        align-items: center;
+        /* height: 100vh; */
+        color: #333;
+    } 
+
+    h1 {
+        color: #4CAF50; /* Green */
+        text-align: center;
+    }
+
+    form {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 400px;
+        width: 100%;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        color: #333;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+ button {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    } 
+
+        button:hover {
+            background-color: #45a049; /* Darker Green */
+        }
+</style>
+

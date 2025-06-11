@@ -1,0 +1,173 @@
+﻿@* @{
+    ViewData["Title"] = "invoice";
+}
+<h1>@ViewData["Title"]</h1>
+<p> hello</p>
+<p>@ViewBag.Name</p>
+<p> @ViewBag.Phone</p>
+
+<p> the price: </p>
+<p>@ViewBag.sum</p>
+<p>the message will send to the mail</p>*@ 
+
+
+
+
+
+
+
+
+@* @{
+    ViewData["Title"] = "invoice";
+}
+
+<h1>@ViewData["Title"]</h1>
+<p> hello</p>
+<p>@ViewBag.Name</p>
+<p>@ViewBag.Phone</p>
+<p> the price: </p>
+    <p>@ViewBag.sum</p>
+
+    <p>the message will send to the mail</p>
+
+
+<style>
+    .body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa; /* Light grey background */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        
+        /* justify-content: center; */
+        align-items: center;
+        height: 100vh;
+        color: #333;
+    }
+
+    .invoice-container {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 600px;
+        width: 100%;
+        text-align: left;
+    }
+
+    h1 {
+        color: #4CAF50; /* Green */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.1em;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+
+    .invoice-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .invoice-details {
+        margin-bottom: 20px;
+    }
+
+    .invoice-footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.9em;
+        color: #777;
+    }
+</style>
+
+<div class="invoice-container">
+    <div class="invoice-header">
+        <h1>@ViewData["Title"]</h1>
+    </div>
+    <div class="invoice-details">
+        <p>Hello, @ViewBag.Name</p>
+        <p>Phone: @ViewBag.Phone</p>
+        <p>The price: @ViewBag.sum</p>
+    </div>
+    <div class="invoice-footer">
+        <p>The message will be sent to the mail.</p>
+    </div>
+</div> *@
+
+
+
+
+
+
+
+
+
+
+
+
+
+@{
+    ViewData["Title"] = "invoice";
+}
+<div id="container">
+    <h1>@ViewData["Title"]</h1>
+    <p> hello</p>
+    <p>@ViewBag.Name</p>
+    <p>@ViewBag.Phone</p>
+    <p> the price: </p>
+    <p>@ViewBag.sum</p>
+    <p>the message will send to the mail</p>
+</div>
+
+<style>
+    /* body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;  Light grey background 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #333;
+    } */
+
+    #container {
+        /* padding-left: 30; */
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        max-width: 600px;
+        width: 100%;
+        text-align: left;
+    }
+
+    h1 {
+        color: #4CAF50; /* Green */
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+
+    #container p:first-of-type {
+        font-weight: bold;
+    }
+
+    #container p:last-of-type {
+        margin-top: 20px;
+        font-size: 1em;
+        color: #777;
+        text-align: center;
+    }
+</style>

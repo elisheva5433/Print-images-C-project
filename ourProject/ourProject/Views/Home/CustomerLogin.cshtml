@@ -1,0 +1,91 @@
+﻿
+
+@{
+    ViewData["Title"] = "Create Customer";
+}
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">@ViewData["Title"]</h2>
+
+        <form method="post" asp-action="CreateCustomer" class="needs-validation" novalidate>
+            <div class="form-group row">
+                <label for="id" class="col-sm-2 col-form-label">Id:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="id" name="id" required>
+                    <div class="invalid-feedback">
+                        insert identity
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="name" class="col-sm-2 col-form-label">name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="name" required>
+                    <div class="invalid-feedback">
+                        insert name
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="phone" class="col-sm-2 col-form-label">Phone:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="phone" name="phone" required>
+                    <div class="invalid-feedback">
+                        insert phone
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="email" class="col-sm-2 col-form-label">Email:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="email" name="email" required>
+                    <div class="invalid-feedback">
+                        insert email
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-10 offset-sm-2">
+                    <button type="submit" class="btn btn-primary">next</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // הפעלת וולידציה של Bootstrap
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+</html>

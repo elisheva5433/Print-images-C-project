@@ -1,0 +1,73 @@
+﻿
+    @* For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860 *@
+    
+
+@* @{
+    ViewBag.Title = "Customer Details";
+}
+<h2>@ViewData["Title"]</h2>
+
+<h1>welcome to Photo </h1>
+ *@
+
+
+
+
+
+
+
+ @{
+    ViewBag.Title = "Customer Details";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* AliceBlue */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            color: #004080; /* Navy Blue */
+            text-shadow: 2px 2px 4px #aaa;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 80%;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>@ViewData["Title"]</h2>
+        <h1>Welcome to Photo</h1>
+    </div>
+</body>
+</html>
