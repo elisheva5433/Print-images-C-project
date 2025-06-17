@@ -13,3 +13,19 @@ H:\C#\פרוייקט\ourProject\BLL\bin\Debug\net8.0\DAL.dll
 H:\C#\פרוייקט\ourProject\BLL\bin\Debug\net8.0\DAL.pdb
 H:\C#\פרוייקט\ourProject\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
 H:\C#\פרוייקט\ourProject\BLL\obj\Debug\net8.0\BLL.csproj.CopyComplete
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\bin\Debug\net8.0\BLL.dll
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\bin\Debug\net8.0\BLL.pdb
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\bin\Debug\net8.0\DAL.dll
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\bin\Debug\net8.0\DAL.pdb
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.sourcelink.json
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.dll
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\BLL.pdb
+C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\ourProject\BLL\obj\Debug\net8.0\ref\BLL.dll

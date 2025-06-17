@@ -18,7 +18,7 @@ namespace BLL.Classes
         {
 
             List<string> pictureList = new List<string>();
-            using (StreamReader reader = new StreamReader(@"H:\C#\פרוייקט\תמונות\MISC\AUTXFER.MRK"))
+            using (StreamReader reader = new StreamReader(@"C:\תיקיה מסלול\C#\PrintIagesProj\Print-images-C-project\תמונות\MISC\AUTXFER.MRK"))
             {
                 string line;
                 string prefix = "IMG SRC";

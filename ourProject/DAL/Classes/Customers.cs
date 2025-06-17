@@ -35,46 +35,5 @@ namespace DAL.Classes
     }
 }
 
-//    public int GetId()
-//    {
-//        return Id;
-//    }
-
-//    public string GetName()
-//    {
-//        return Name;
-//    }
-
-//    public string GetCustomersCode()
-//    {
-//        return CustomersCode;
-//    }
-
-//    public int GetPhone()
-//    {
-//        return Phone;
-//    }
-
-
-//    public void SetId(int id)
-//    {
-//        this.Id = id;
-//    }
-
-//    public void SetName(string name)
-//    {
-//        this.Name = name;
-//    }
-
-//    public void SetCustomersCode(string customersCode)
-//    {
-//        this.CustomersCode = customersCode;
-//    }
-
-//    public void SetPhone(int phone)
-//    {
-//        this.Phone = phone;
-//    }
-//}
 
 

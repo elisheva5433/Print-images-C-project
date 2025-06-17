@@ -1,15 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-@*  <form asp-action="OfficerView">
-        <label>קוד פקיד:<input id="code" name="OfficerCode" /></label>
-    <button type="submit">היכנס</button>
-    </form > 
-
- *@
-
+﻿
 
 
 <!DOCTYPE html>
@@ -71,48 +60,11 @@
     </style>
 </head>
 <body>
-    @* <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ourProject</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="HomePage">HomePage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="CustomerLogin">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="CustomerLogin">Customer login</a>
-                        </li>
-                        <li class="OfficerLogin">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="OfficerLogin">Officer login</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header> *@
-    @* <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div> *@
-
-    @* <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - ourProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer> *@
+   
+ 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    @* @await RenderSectionAsync("Scripts", required: false) *@
 
     <form asp-action="OfficerView">
         <label>קוד פקיד:<input id="code" name="OfficerCode" /></label>

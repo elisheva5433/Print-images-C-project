@@ -1,12 +1,10 @@
-﻿//using customerInterface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DAL.Classes;
 
-//using DAL;
 using DAL.Interfaces;
 using Microsoft.EntityFrameworkCore;
 namespace DAL;
@@ -14,16 +12,7 @@ namespace DAL;
 
 public class CustomerService : ICustomerService
 {
-    //private readonly OrderDbcontext _context; // דוגמה לשימוש ב-Entity Framework
 
-
-    // public CustomerService(OrderDbcontext context)
-
-    // {
-
-    //     _context = context;
-
-    // }
     public string GenerateUniqueOrderId()
 
     {
